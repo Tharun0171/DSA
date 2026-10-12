@@ -7,7 +7,7 @@ public:
             if(s[i]=='a')cnta++;
             else cntb++;
         }
-        if(cnta==0 || cntb==0)return max(cnta,cntb);
+        //if(cnta==0 || cntb==0)return max(cnta,cntb);
         return n-2*min(cnta,cntb);
     }
 };
