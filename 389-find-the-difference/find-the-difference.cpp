@@ -1,7 +1,7 @@
 class Solution {
 public:
     char findTheDifference(string s, string t) {
-        unordered_map<char,int> mpp;
+        unordered_map<char,int> mpp(26);
         int n=s.length()+1;
         for(int i=0;i<n;i++){
             mpp[t[i]]++;
